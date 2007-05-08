@@ -1,9 +1,8 @@
-
 %define realname	Regexp-Shellish
 
 Name:		perl-%{realname}
 Version:	0.93
-Release: %mkrel 4
+Release: %mkrel 5
 
 License:	GPL or Artistic
 Group:		Development/Perl
@@ -24,6 +23,7 @@ instead of using perl regular expressions.
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
 
+%check
 make test
 
 %install
