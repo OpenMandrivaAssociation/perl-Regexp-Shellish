@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:	0.93
-Release: %mkrel 5
+Release: %mkrel 6
 
 License:	GPL or Artistic
 Group:		Development/Perl
