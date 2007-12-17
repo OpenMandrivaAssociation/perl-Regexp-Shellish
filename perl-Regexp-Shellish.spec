@@ -9,7 +9,6 @@ Group:		Development/Perl
 Summary:	Shell-like regular expressions for perl
 Source0:        ftp://ftp.perl.org/pub/CPAN/modules/by-module/Regexp/%{realname}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{realname}
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildArch:      noarch
 %description
